@@ -41,6 +41,15 @@ header li {
 
 nav a {
     text-decoration: none;
+    color: rgb(255, 251, 0);
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+nav a:hover {
+    background-color: rgb(255, 251, 0) ;
+    color: rgb(77, 77, 0);
 }
 
 #hero {
@@ -90,4 +99,11 @@ nav a {
 
 #hero-content a:hover{
     background-color: rgb(255, 238, 0);
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top: 0;
 }
