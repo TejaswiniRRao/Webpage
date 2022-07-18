@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(30deg, rgb(77, 77, 77), rgb(58, 58, 58));
+}
+
+header {
+    position: static;
+}
+
+
+#container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;
+
+}
+
+
+#page-logo a{
+    font-family: 'Oleo Script', sans-serif;
+    padding: 10px;
+    color: rgb(245, 243, 160);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 2px rgb(0,0,0);
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    margin-left: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(255, 251, 0);
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+main li img {
+    width: 300px;
+    height: 300px;
+}
+
+
+
+
+
+
+#footer ul {
+    height: 50px;
+    background: linear-gradient(75deg, rgb(24, 24, 24), rgb(25, 29, 29));
+    display: flex;
+    justify-content: center;
+    padding: 20px
+}
+
+#footer li {
+    margin: 10px 20px;
+}
+
+#footer img {
+    width: 45px;     /*You can give width and height to the list items and set the image width and height to 100% of the width*/
+    height: 45px;
+}
